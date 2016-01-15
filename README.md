@@ -20,8 +20,8 @@ logstash --config logstash/parking-meters.conf
 
 ## Visualizing the data
 
-1. Open Kibana in your browser
+- Open Kibana in your browser
 
-2. (First time only) Go to _Settings > Objects_, then click the Import button. Upload the file `kibana/export.json`
+- (First time only) Go to _Settings > Objects_, then click the Import button. Upload the file `kibana/export.json`
 
-3. Go to _Dashboard_, then click the icon for loading saved dashboards (looks like an open folder), then select "Pasadena Parking"
+- Go to _Dashboard_, then click the icon for loading saved dashboards (looks like an open folder), then select "Pasadena Parking"
