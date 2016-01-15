@@ -6,6 +6,14 @@
 
 ## Loading the data
 
+- Edit the logstash config file, `logstash/parking-meters.conf` and make the following changes:
+
+ - Set `input.file.path` to the absolute path to `data/parking-meters.csv`
+ - Set `output.elasticsearch.template` to the absolute path to `elasticsearch/template.json`
+ - Set `output.elasticsearch.hosts` to host(s) in your Elasticsearch cluster. You can procure an Elasticsearch cluster from [Found](https://www.elastic.co/found).
+
+
+- Run logstash:
 ```sh
 logstash --config logstash/parking-meters.conf
 ```
